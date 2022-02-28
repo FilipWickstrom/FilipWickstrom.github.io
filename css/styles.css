@@ -162,7 +162,20 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+}
+
+.img-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.coding-background {
+  background-image: url('../assets/img/CodeBlurred.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 svg {
   overflow: hidden;
