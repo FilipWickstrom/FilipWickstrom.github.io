@@ -67,6 +67,13 @@
   
   })(jQuery); // End of use strict
 
+  // Calculate my age when loading the page :)
+  window.onload = function()
+  {
+    // Code written by: Sivakumar Tadisetti
+    // https://stackoverflow.com/questions/8152426/how-can-i-calculate-the-number-of-years-between-two-dates
+    document.getElementById('age').innerHTML = new Date(new Date() - new Date(1999,8,10)).getFullYear() - 1970;
+  }
 
   
   
