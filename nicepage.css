@@ -38138,7 +38138,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 90px;
+  min-height: 85px;
 }
 
 .u-header .u-image-1 {
@@ -38153,7 +38153,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -60px 0 11px auto;
+  margin: -60px 0 12px auto;
 }
 
 .u-header .u-file-icon-1 {
@@ -38163,10 +38163,10 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 400;
-  font-family: "Bebas Neue";
-  font-size: 1.5rem;
-  letter-spacing: 3px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: Poppins;
+  letter-spacing: 1px;
   text-transform: none;
 }
 
@@ -38186,7 +38186,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -60px;
   }
 
   .u-header .u-sidenav-1 {
@@ -38252,7 +38251,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 .u-footer .u-sheet-1 {
-  min-height: 304px;
+  min-height: 331px;
 }
 
 .u-footer .u-text-1 {
@@ -38286,7 +38285,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-2 {
-  margin: 32px auto 49px;
+  font-size: 1rem;
+  margin: 32px auto 60px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-social-icons-1 {
@@ -38303,7 +38303,19 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 340px;
+  }
 
+  .u-footer .u-text-2 {
+    font-size: 0.875rem;
+    width: auto;
+    margin-top: 31px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
