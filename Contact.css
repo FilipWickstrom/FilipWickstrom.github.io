@@ -80,7 +80,6 @@
 
 .u-section-2 .u-form-1 {
   height: 435px;
-  box-shadow: 5px 5px 20px 0 rgba(29,29,29,0.4);
   background-image: none;
   width: 842px;
   margin: 0;
@@ -102,7 +101,6 @@
 }
 
 .u-section-2 .u-list-item-1 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   transition-duration: 0.5s;
 }
 
@@ -127,7 +125,6 @@
 }
 
 .u-section-2 .u-list-item-2 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   transition-duration: 0.5s;
 }
 
@@ -259,7 +256,6 @@
 
   .u-section-2 .u-repeater-1 {
     grid-gap: 10px 10px;
-    grid-auto-columns: 100%;
   }
 }
 
