@@ -388,39 +388,37 @@
 }
 
 .u-section-5 .u-sheet-1 {
-  min-height: 1215px;
+  min-height: 1456px;
 }
 
 .u-section-5 .u-layout-wrap-1 {
-  margin: 70px 0 0;
+  width: 100%;
+  min-height: 700px;
+  margin: 84px 0 0;
 }
 
 .u-section-5 .u-layout-cell-1 {
-  min-height: 620px;
+  min-height: 730px;
   --effect-scale: 1.25;
 }
 
 .u-section-5 .u-image-1 {
   background-image: url("images/homehearth.jpg");
   transition-duration: 0.75s;
-  background-position: 50.32% 50%;
+  background-position: 50% 50%;
 }
 
 .u-section-5 .u-container-layout-1 {
-  padding: 30px 60px;
+  padding: 7px 0;
 }
 
 .u-section-5 .u-layout-cell-2 {
-  min-height: 310px;
-  background-size: auto 105%;
+  min-height: 386px;
   --effect-scale: 1.25;
 }
 
 .u-section-5 .u-image-2 {
-  background-image: url("images/Game.png");
-  background-position: 0% 62.9%;
-  transition-duration: 0.75s;
-  background-size: 105%;
+  background-image: url("images/LS_GameNoUI2.png");
 }
 
 .u-section-5 .u-container-layout-2 {
@@ -428,7 +426,7 @@
 }
 
 .u-section-5 .u-layout-cell-3 {
-  min-height: 310px;
+  min-height: 344px;
   background-size: auto 110%;
   --effect-scale: 1.25;
 }
@@ -445,76 +443,64 @@
 }
 
 .u-section-5 .u-group-1 {
-  min-height: 267px;
+  width: 100%;
+  min-height: 450px;
   height: auto;
-  margin-top: 30px;
-  margin-bottom: 0;
   --effect-scale: 1.25;
+  margin: 30px 141px 0 auto;
 }
 
 .u-section-5 .u-image-4 {
   background-image: url("images/Prodigium.PNG");
-  background-position: 50% 72.05%;
+  background-position: 50% 78.15%;
   transition-duration: 0.75s;
 }
 
 .u-section-5 .u-container-layout-4 {
-  padding: 0;
+  padding: 30px;
 }
 
 .u-section-5 .u-btn-1 {
   text-transform: none;
   font-weight: normal;
-  margin: 70px auto 60px;
+  margin: 50px auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 1107px;
-  }
-
-  .u-section-5 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-5 .u-layout-cell-1 {
     background-position: 50% 50%;
-    min-height: 511px;
   }
 
   .u-section-5 .u-layout-cell-2 {
-    min-height: 256px;
     background-position: 0% 62.9%;
+    background-size: auto 105%;
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 300px;
     background-position: 55.22% 30.65%;
   }
 
   .u-section-5 .u-group-1 {
-    background-position: 50% 72.05%;
+    background-position: 50% 78.15%;
     height: auto;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 2179px;
+    min-height: 3675px;
+  }
+
+  .u-section-5 .u-layout-wrap-1 {
+    min-height: 2189px;
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 712px;
-  }
-
-  .u-section-5 .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
+    min-height: 1327px;
   }
 
   .u-section-5 .u-layout-cell-2 {
-    min-height: 392px;
+    min-height: 858px;
   }
 
   .u-section-5 .u-container-layout-2 {
@@ -523,7 +509,7 @@
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 392px;
+    min-height: 764px;
   }
 
   .u-section-5 .u-container-layout-3 {
@@ -533,49 +519,23 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 1783px;
-  }
-
-  .u-section-5 .u-layout-cell-1 {
-    min-height: 534px;
-  }
-
-  .u-section-5 .u-container-layout-1 {
+  .u-section-5 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-section-5 .u-layout-cell-2 {
-    min-height: 294px;
-  }
-
-  .u-section-5 .u-layout-cell-3 {
-    min-height: 294px;
-  }
-
-  .u-section-5 .u-container-layout-3 {
+  .u-section-5 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 1343px;
-  }
-
-  .u-section-5 .u-layout-cell-1 {
-    min-height: 336px;
-  }
-
   .u-section-5 .u-layout-cell-2 {
-    min-height: 185px;
     background-size: 105%;
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 185px;
     background-size: 110%;
   }
 } .u-section-6 {
