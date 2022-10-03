@@ -9,23 +9,34 @@
 <link rel="stylesheet" href="Portfolio.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <script> function toggleBlock(blockID) 
-{
-	// Hide all of the blocks
-	var allBlocks = document.getElementsByClassName("block")
-	for (var i = 0; i < allBlocks.length; i++)
-	{
-		allBlocks[i].style.display = "none"
-	}
+    <script> 
 	
-	// Toggle this block on or off
-  	var block = document.getElementById(blockID);
-        
-  	if (block.style.display == "none")
-   		block.style.display = "block";
-  	else 
-    	block.style.display = "none";
-} </script>
+	function toggleBlock(blockID) 
+	{
+		// Hide all of the blocks
+		var allBlocks = document.getElementsByClassName("block")
+		for (var i = 0; i < allBlocks.length; i++)
+		{
+			allBlocks[i].style.display = "none"
+		}
+		
+		// Toggle this block on or off
+		var block = document.getElementById(blockID);
+			
+		if (block.style.display == "none")
+			block.style.display = "block";
+		else 
+			block.style.display = "none";
+		
+		// Pause + reset all videos in the block when loading new block
+		var videos = block.querySelectorAll('video');
+		for(video of videos) 
+		{
+			video.pause();
+			video.load();
+		}
+	}
+	</script>
     
     <link id="u-theme-google-font" rel="stylesheet" href="fonts.css">
     <link id="u-page-google-font" rel="stylesheet" href="Portfolio-fonts.css">
@@ -120,7 +131,7 @@
                   <h1 class="u-align-center u-text u-text-default u-text-3">prodigium</h1>
                 </div>
               </div>
-              <div onClick="toggleBlock('section4')"class="u-container-style u-effect-hover-zoom u-image-default u-list-item u-repeater-item u-list-item-4" data-image-width="1920" data-image-height="1053" data-href="Portfolio.html#section4">
+              <div onClick="toggleBlock('section4')" class="u-container-style u-effect-hover-zoom u-image-default u-list-item u-repeater-item u-list-item-4" data-image-width="1920" data-image-height="1053" data-href="Portfolio.html#section4">
                 <div class="u-background-effect u-expanded">
                   <div class="u-background-effect-image u-expanded u-image u-image-4" data-image-width="1920" data-image-height="1053"></div>
                 </div>
