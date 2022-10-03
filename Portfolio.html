@@ -14,10 +14,10 @@
 	function toggleBlock(blockID) 
 	{
 		// Hide all of the blocks
-		var allBlocks = document.getElementsByClassName("block")
+		var allBlocks = document.getElementsByClassName("block");
 		for (var i = 0; i < allBlocks.length; i++)
 		{
-			allBlocks[i].style.display = "none"
+			allBlocks[i].style.display = "none";
 		}
 		
 		// Toggle this block on or off
@@ -29,12 +29,19 @@
 			block.style.display = "none";
 		
 		// Pause + reset all videos in the block when loading new block
-		var videos = block.querySelectorAll('video');
+		var videos = document.querySelectorAll('video');
 		for(video of videos) 
 		{
 			video.pause();
 			video.load();
 		}
+		
+		// Stop all iframes (youtube videos) when loading new block
+		var iframes = document.querySelectorAll('iframe');
+		for(iframe of iframes)
+		{
+			iframe.src = iframe.src;
+		} 
 	}
 	</script>
     
@@ -216,7 +223,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             </div>
           </div>
         </div>
-        <a href="https://github.com/FilipWickstrom/Lua_Scripting/releases/download/Release/" class="u-btn u-button-style u-text-hover-palette-1-base u-text-palette-1-base u-btn-1" target="_blank">Download game</a>
+        <a href="https://github.com/FilipWickstrom/Lua_Scripting/releases/" class="u-btn u-button-style u-text-hover-palette-1-base u-text-palette-1-base u-btn-1" target="_blank">Download game</a>
         <a href="https://github.com/FilipWickstrom/Lua_Scripting" class="u-border-2 u-border-hover-palette-4-base u-border-palette-1-base u-btn u-button-style u-none u-text-hover-palette-4-base u-text-palette-1-base u-btn-2" target="_blank">Source code</a>
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-2">
           <div class="u-layout">
