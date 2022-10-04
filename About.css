@@ -797,7 +797,6 @@
   grid-gap: 50px 50px;
   grid-template-columns: 100%;
   min-height: 1024px;
-  grid-auto-columns: 100%;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -1034,6 +1033,4 @@
   .u-section-7 .u-text-4 {
     width: 320px;
   }
-}.u-section-8 .u-sheet-1 {
-  min-height: 500px;
 }
